@@ -29,6 +29,7 @@
   "keyToString": {
     "Python.favourite_places_v1.executor": "Run",
     "Python.letter_choice_v1.executor": "Run",
+    "Python.rock_paper_scissors_v1.executor": "Run",
     "Python.roll-dice_v1.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
