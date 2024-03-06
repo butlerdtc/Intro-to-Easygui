@@ -28,6 +28,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1_spelling_converter_v1.executor": "Run",
+    "Python.2_tech_free_goal_v1.executor": "Run",
+    "Python.3_travel_bucket_list_v1.executor": "Run",
     "Python.favourite_places_v1.executor": "Run",
     "Python.letter_choice_v1.executor": "Run",
     "Python.rock_paper_scissors_v1.executor": "Run",
