@@ -10,7 +10,8 @@ while True:
     if "ise" in word:
         new_word = word.replace("ise", "ize")
         easygui.msgbox(f"You entered {original_word}, and its american "
-                       f"spelling is {new_word}")
+                       f"spelling "
+                       f"is {new_word}")
     elif "yse" in word:
         new_word = word.replace("yse", "yze")
         easygui.msgbox(f"You entered {original_word}, and its american "
