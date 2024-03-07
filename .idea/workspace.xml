@@ -28,6 +28,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.04_winning_card_v1.executor": "Run",
+    "Python.05_spelling_converter_v2.executor": "Run",
     "Python.1_spelling_converter_v1.executor": "Run",
     "Python.2_tech_free_goal_v1.executor": "Run",
     "Python.3_travel_bucket_list_v1.executor": "Run",
@@ -40,18 +41,47 @@
     "Python.test2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Robson School/OneDrive - Middleton Grange School/YR12/12DTC/2.7 and 2.8 Programming/Exercises/Intro to Easygui/Enter Easygui",
+    "last_opened_file_path": "C:/Users/Robson School/OneDrive - Middleton Grange School/YR12/12DTC/2.7 and 2.8 Programming/Exercises/Intro to Easygui/Working with Lists",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Enter Easygui" />
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Working with Lists" />
+      <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Enter Easygui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Intro Exercises" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="05_spelling_converter_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Intro to Easygui" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Working with Lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Working with Lists/05_spelling_converter_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.05_spelling_converter_v2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

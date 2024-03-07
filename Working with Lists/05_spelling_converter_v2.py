@@ -2,14 +2,29 @@
 
 import easygui
 
-word = easygui.enterbox("Please enter word to convert", "User Word")
-# Convert user input to a list
-word_list = list(word)
+while True:
+    word = easygui.enterbox("Please enter word to convert", "User Word")
+    # Retains original word
+    original_word = word
 
-# letters_to_remove = "u"
-# position = (word.find(letters_to_remove))
-# for letter in range(len(letters_to_remove)):
-#     word_list.pop(position)
-# word_list = ''.join(word_list)
-# output = easygui.msgbox(f"Your word, {word} in American spelling is "
-#                         f"{word_list}")
+    if "ise" in word:
+        new_word = word.replace("ise", "ize")
+        easygui.msgbox(f"You entered {original_word}, and its american "
+                       f"spelling is {new_word}")
+    elif "yse" in word:
+        new_word = word.replace("yse", "yze")
+        easygui.msgbox(f"You entered {original_word}, and its american "
+                       f"spelling is {new_word}")
+    elif "our" in word:
+        new_word = word.replace("our", "or")
+        easygui.msgbox(f"You entered {original_word}, and its american "
+                       f"spelling is {new_word}")
+    else:
+        easygui.msgbox("No spelling changes needed", "No changes")
+    run_again = easygui.buttonbox("Would you like to convert another word:",
+                                  "Run program again", ["Yes", "No"])
+    if run_again == "Yes":
+        continue
+    else:
+        break
+thanks = easygui.msgbox("Thanks for using our program", "Thank you")
