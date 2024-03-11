@@ -1,7 +1,10 @@
 """Winning card game v1"""
 
+# Imports Easygui and random module
 import easygui
 import random
+
+game_played = False
 
 while True:
     intro = easygui.buttonbox("Would you like to play?", "Intro "
@@ -47,7 +50,13 @@ while True:
             easygui.msgbox("The computer won")
         else:
             easygui.msgbox("You won")
+
+        game_played = True
+
     else:
         break
 
-easygui.msgbox("Thanks for playing\n\n         Goodbye", "Goodbye")
+if game_played:
+    easygui.msgbox("Thanks for playing\n\n         Goodbye", "Goodbye")
+else:
+    easygui.msgbox("Goodbye", "Goodbye")
