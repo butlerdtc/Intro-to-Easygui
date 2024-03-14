@@ -41,19 +41,22 @@ while True:
                                                      "Stick"])
 
         if sequence1 == "Stick":
+            three_kind = any(results.count(result) >= 3 for result in results)
+            four_kind = any(results.count(result) >= 4 for result in results)
+            yahtzee = any(results.count(result) == 5 for result in results)
 
-            if results[0] == results[4]:
+            if yahtzee:
                 easygui.msgbox(f"You rolled: {player1_roll}\n\nYahtzee!",
                                "Winner")
                 player1_score += 50
-            elif results[0] == results[3] or results[1] == results[4]:
+            elif four_kind:
                 easygui.msgbox(f"You rolled: {player1_roll}\n\nFour of a "
                                f"kind!", "Winner")
                 player1_score += 30
-            elif (results[0] == results[2] or results[1] == results[3] or
-                  results[2] == results[4]):
-                easygui.msgbox(f"You rolled: {player1_roll}\n\nThree of "
-                               f"a kind!", "Winner")
+            elif three_kind:
+                easygui.msgbox(
+                    f"You rolled: {player1_roll}\n\nThree of a kind!",
+                    "Winner")
                 player1_score += 10
             else:
                 easygui.msgbox(f"You rolled: {player1_roll}\n\nBetter"
@@ -87,18 +90,22 @@ while True:
                                                      "Stick"])
 
         if sequence2 == "Stick":
-            if results[0] == results[4]:
+            three_kind = any(results.count(result) >= 3 for result in results)
+            four_kind = any(results.count(result) >= 4 for result in results)
+            yahtzee = any(results.count(result) == 5 for result in results)
+
+            if yahtzee:
                 easygui.msgbox(f"You rolled: {player2_roll}\n\nYahtzee!",
                                "Winner")
                 player2_score += 50
-            elif results[0] == results[3] or results[1] == results[4]:
+            elif four_kind:
                 easygui.msgbox(f"You rolled: {player2_roll}\n\nFour of a "
                                f"kind!", "Winner")
                 player2_score += 30
-            elif (results[0] == results[2] or results[1] == results[3] or
-                  results[2] == results[4]):
-                easygui.msgbox(f"You rolled: {player2_roll}\n\nThree of "
-                               f"a kind!", "Winner")
+            elif three_kind:
+                easygui.msgbox(
+                    f"You rolled: {player2_roll}\n\nThree of a kind!",
+                    "Winner")
                 player2_score += 10
             else:
                 easygui.msgbox(f"You rolled: {player2_roll}\n\nBetter"
