@@ -1,5 +1,5 @@
-"""Yahtzee Lite v2
-Added 2 player system and now counts score
+"""Yahtzee Lite v3
+Changed how it calculates for duplicates
 """
 
 import easygui
