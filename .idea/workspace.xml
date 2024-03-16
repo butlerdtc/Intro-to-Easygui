@@ -46,18 +46,23 @@
     "Python.test.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.timer_v1.executor": "Run",
+    "Python.timer_v2.executor": "Run",
+    "Python.timer_v3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Robson School/OneDrive - Middleton Grange School/YR12/12DTC/2.7 and 2.8 Programming/Exercises/Intro to Easygui/Working with Lists",
+    "last_opened_file_path": "C:/Users/Robson School/OneDrive - Middleton Grange School/YR12/12DTC/2.7 and 2.8 Programming/Exercises/Intro to Easygui/Side Tasks",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Side Tasks" />
+      <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui" />
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Working with Lists" />
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Enter Easygui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Side Tasks" />
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Intro Exercises" />
     </key>
   </component>
