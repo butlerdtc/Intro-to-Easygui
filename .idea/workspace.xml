@@ -39,6 +39,7 @@
     "Python.3_travel_bucket_list_v1.executor": "Run",
     "Python.favourite_places_v1.executor": "Run",
     "Python.letter_choice_v1.executor": "Run",
+    "Python.monk.executor": "Run",
     "Python.rock_paper_scissors_v1.executor": "Run",
     "Python.roll-dice_v1.executor": "Run",
     "Python.teacher_student_ratio_v1.executor": "Run",
