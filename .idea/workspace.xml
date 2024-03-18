@@ -42,6 +42,12 @@
     "Python.monk.executor": "Run",
     "Python.rock_paper_scissors_v1.executor": "Run",
     "Python.roll-dice_v1.executor": "Run",
+    "Python.superheroes_v1.executor": "Run",
+    "Python.superheroes_v2.executor": "Run",
+    "Python.superheroes_v3.executor": "Run",
+    "Python.superheroes_v4.executor": "Run",
+    "Python.superheroes_v5.executor": "Run",
+    "Python.superheroes_v6.executor": "Run",
     "Python.teacher_student_ratio_v1.executor": "Run",
     "Python.temp.executor": "Run",
     "Python.test.executor": "Run",
@@ -51,13 +57,14 @@
     "Python.timer_v3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Robson School/OneDrive - Middleton Grange School/YR12/12DTC/2.7 and 2.8 Programming/Exercises/Intro to Easygui/Side Tasks",
+    "last_opened_file_path": "C:/Users/Robson School/OneDrive - Middleton Grange School/YR12/12DTC/2.7 and 2.8 Programming/Exercises/Intro to Easygui/Working with Dictionaries",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Working with Dictionaries" />
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Side Tasks" />
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui" />
       <recent name="C:\Users\Robson School\OneDrive - Middleton Grange School\YR12\12DTC\2.7 and 2.8 Programming\Exercises\Intro to Easygui\Working with Lists" />
