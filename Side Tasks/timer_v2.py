@@ -42,6 +42,7 @@ def timer():
                 print(f"{hours:02}:{minutes:02}:{seconds:02}")
                 time.sleep(1)
 
+            # Prints 10 empty lines to act as if terminal was cleared
             print("\n" * 10)
             timer_finished = easygui.buttonbox("Times Up\n\nWould you "
                                                "like to use the timer again?"
