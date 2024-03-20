@@ -1,8 +1,8 @@
 contacts = {}
 
-for i in range(1):
+for i in range(2):
+    error = "Sorry, you must enter an integer"
 
-    error = "\nSorry, you must enter an integer\n"
     contact_ID = ""
     while not contact_ID:
         try:
@@ -17,7 +17,6 @@ for i in range(1):
     last_name = input("Enter last name: ")
     contacts[contact_ID]['Last name'] = last_name
 
-    error = "\nSorry, you must enter an integer\n"
     mobile = ""
     while not mobile:
         try:
@@ -28,5 +27,10 @@ for i in range(1):
 
     email = input("Enter email: ")
     contacts[contact_ID]['Email'] = email
+    print("\n")
 
-print(f"\n{contacts}")
+for contacts_id, contact_info in contacts.items():
+    print(f"\nContact ID: {contacts_id}")
+
+    for key in contact_info:
+        print(f"{key}: {contact_info[key]}")
