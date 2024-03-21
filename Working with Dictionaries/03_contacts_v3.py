@@ -26,9 +26,10 @@ while True:
     elif answer == "Search":
         while True:
             contact_details = []
+            correct = 0
             search = easygui.enterbox("Enter name of contact: ",
                                       "Search").title()
-            correct = 0
+
             for contact_id, contact_info in contacts.items():
                 if (contact_info['First name'] == search or
                         contact_info['Last name'] == search):
