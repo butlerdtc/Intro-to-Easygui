@@ -20,7 +20,8 @@ while True:
             search = input("Enter name of contact to search for: ").title()
             correct = 0
             for contact_id, contact_info in contacts.items():
-                if contact_info['First name'] == search:
+                if (contact_info['First name'] == search or
+                        contact_info['Last name'] == search):
                     correct += 1
                     print(f"\nContact ID: {contact_id}")
 
