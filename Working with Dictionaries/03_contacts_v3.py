@@ -8,11 +8,51 @@ contacts = {"1": {"First name": "Rafael", "Last name": "Aang",
 
 while True:
     all_details = []
-    answer = easygui.buttonbox("Would you like to search for a contact or "
-                               "print the full list", "Choose",
-                               ["Search", "List", "Exit"])
+    answer = easygui.buttonbox("Would you like to search for a contact, "
+                               "print the full list or add a contact",
+                               "Choose", ["Search", "List", "Add",
+                                          "Exit"])
+    if answer == "Add":
+        while True:
+            new_ID = easygui.integerbox("Enter new contacts ID: ",
+                                        "New ID")
+            if new_ID in contacts:
+                easygui.msgbox("This ID is already assigned to a contact\n"
+                               "Please enter a new ID")
+                continue
+            else:
+                contacts[new_ID] = {}
+                break
 
-    if answer == "List":
+        first_name = easygui.enterbox("Enter first name: ",
+                                      "First Name")
+        contacts[new_ID]['First name'] = first_name
+
+        last_name = easygui.enterbox("Enter last name: ",
+                                     "Last Name")
+        contacts[new_ID]['Last name'] = last_name
+
+        while True:
+            mobile = easygui.integerbox("Enter mobile number: ",
+                                        "Mobile Number")
+            if mobile in contacts:
+                easygui.msgbox("Another contact already has this number")
+                continue
+            else:
+                contacts[new_ID]['Mobile'] = mobile
+                break
+
+        while True:
+            email = easygui.enterbox("Enter email address: ",
+                                     "Email Address")
+            if email in contacts:
+                easygui.msgbox("Another contact already has this email")
+                continue
+            else:
+                contacts[new_ID]['Email'] = email
+                break
+
+    elif answer == "List":
         for contacts_id, contact_info in contacts.items():
             all_details.append(f"\nContact ID: {contacts_id}\n")
 
