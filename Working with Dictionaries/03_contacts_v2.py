@@ -18,16 +18,16 @@ while True:
     elif answer == "yes":
         while True:
             search = input("Enter name of contact to search for: ").title()
-            found = 0
+            correct = 0
             for contact_id, contact_info in contacts.items():
                 if contact_info['First name'] == search:
-                    found += 1
+                    correct += 1
                     print(f"\nContact ID: {contact_id}")
 
                     for key, value in contact_info.items():
                         print(f"{key}: {value}")
                     break
-            if found > 0:
+            if correct > 0:
                 break
             else:
                 print("This contact is not in the list")
