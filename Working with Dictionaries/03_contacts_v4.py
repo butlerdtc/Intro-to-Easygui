@@ -1,3 +1,8 @@
+"""Version 4 of 03_contacts
+Converts version 3 into functions
+Created by Robson Butler - 24/03/2024
+"""
+
 import easygui
 
 
@@ -8,7 +13,8 @@ def phone_formatter(number):
             f'{formatted_number[6:]}')
 
 
-def add_contact():
+# Function that adds a new contact to dictionary
+def add_contact(contacts):
     while True:
         new_id = easygui.integerbox("Enter new contacts ID: ",
                                     "New ID", upperbound=300)
@@ -65,7 +71,9 @@ def add_contact():
             break
 
 
-def print_list():
+# Function to print the formatted dictionary
+def print_list(contacts):
+    all_details = []
     for contacts_id, contacts_info in contacts.items():
         all_details.append(f"\nContact ID: {contacts_id}\n")
 
@@ -78,7 +86,8 @@ def print_list():
     easygui.msgbox(f"{details}", "Full list")
 
 
-def search_list():
+# Function to search the dictionary for a specific contact
+def search_list(contacts):
     while True:
         contact_details = []
         correct = 0
@@ -106,21 +115,27 @@ def search_list():
             continue
 
 
+# Function that compiles the other functions into a loop
 def main_program():
+    contacts = {"1": {"First name": "Rafael", "Last name": "Aang",
+                      "Mobile": "027 337 8089", "Email": "raf@gmail.com"},
+                "2": {"First name": "Alex", "Last name": "Lau",
+                      "Mobile": "021 457 7696", "Email": "alex@gmail.com"}
+                }
+
     while True:
-        all_details = []
         answer = easygui.buttonbox("Would you like to search for a contact, "
                                    "print the full list or add a contact",
                                    "Choose", ["Search", "List", "Add",
                                               "Exit"])
         if answer == "Add":
-            add_contact()
+            add_contact(contacts)
 
         elif answer == "List":
-            print_list()
+            print_list(contacts)
 
         elif answer == "Search":
-            search_list()
+            search_list(contacts)
 
         else:
             easygui.msgbox("Thanks for using this program", "Thank you")
@@ -128,10 +143,4 @@ def main_program():
 
 
 # Main routine
-contacts = {"1": {"First name": "Rafael", "Last name": "Aang",
-                  "Mobile": "027 337 8089", "Email": "raf@gmail.com"},
-            "2": {"First name": "Alex", "Last name": "Lau",
-                  "Mobile": "021 457 7696", "Email": "alex@gmail.com"}
-            }
-
 main_program()
